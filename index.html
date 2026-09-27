@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Le Onze Store — Maillots de football, survêtements, ensembles et personnalisation au Cameroun.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="canonical" href="https://leonzestore.com/">
+<title>Le Onze Store — Maillots & Survêtements</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar">⚽ LE ONZE STORE — FOOTBALL, STYLE & PASSION • 🇨🇲 LIVRAISON AU CAMEROUN</div>
+
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#accueil" aria-label="Le Onze Store">
+      <span class="logo11">11</span><span><b>LE ONZE</b><small>STORE</small></span>
+    </a>
+    <button class="hamb" id="hamb" aria-label="Menu">☰</button>
+    <nav id="navlinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#catalogue">Maillots</a>
+      <a href="#survetements">Survêtements</a>
+      <a href="#personnalisation">Personnalisation</a>
+      <a href="#livraison">Livraison</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-open" id="cartOpen">Panier <span id="cartCount">0</span></button>
+  </div>
+</header>
+
+<main id="accueil">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">LE ONZE STORE • CAMEROUN</p>
+      <h1>TON MAILLOT.<br><em>TON ÉQUIPE.</em><br>TON HISTOIRE.</h1>
+      <p>Maillots, survêtements et pièces football pour les passionnés. Commande simplement en ligne ou directement sur WhatsApp.</p>
+      <div class="actions">
+        <a class="btn gold" href="#catalogue">Découvrir la collection</a>
+        <a class="btn ghost" id="heroWa" href="#">Commander sur WhatsApp</a>
+      </div>
+      <div class="hero-points"><span>✓ Sélection football</span><span>✓ Tailles adultes & enfants</span><span>✓ Livraison Cameroun</span></div>
+    </div>
+    <div class="hero-shirt" aria-hidden="true"><div class="hero-number">11</div><span>LE ONZE</span></div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust-grid">
+    <div><b>🚚 Livraison</b><span>Au Cameroun</span></div>
+    <div><b>📱 WhatsApp</b><span>Commande rapide</span></div>
+    <div><b>💳 Paiement</b><span>À confirmer avec nous</span></div>
+    <div><b>⚽ Football</b><span>Maillots & survêtements</span></div>
+  </div>
+</section>
+
+<section class="section" id="catalogue">
+<div class="container">
+  <div class="section-head">
+    <div><p class="eyebrow dark">COLLECTION</p><h2>Les incontournables</h2><p class="muted">Une sélection de démonstration en attendant l’intégration de tes photos et prix réels.</p></div>
+  </div>
+  <div class="filters">
+    <button class="filter active" data-filter="Tous">Tous</button>
+    <button class="filter" data-filter="Maillots">Maillots</button>
+    <button class="filter" data-filter="Survêtements">Survêtements</button>
+    <button class="filter" data-filter="Enfants">Enfants</button>
+  </div>
+  <div class="grid" id="productGrid"></div>
+</div>
+</section>
+
+<section class="banner" id="survetements">
+  <div class="container banner-inner">
+    <div><p class="eyebrow">LE ONZE • PERFORMANCE</p><h2>Survêtements<br>& tenues sportives</h2><p>Pour l’entraînement, les déplacements et le quotidien.</p><a class="btn light" href="#catalogue" data-jump-filter="Survêtements">Voir les survêtements</a></div>
+    <strong>11</strong>
+  </div>
+</section>
+
+<section class="section" id="personnalisation">
+<div class="container split">
+  <div><p class="eyebrow dark">PERSONNALISATION</p><h2>Ton nom.<br>Ton numéro.</h2><p class="muted big">Demande la personnalisation de ton maillot avec ton nom et ton numéro. La disponibilité et le tarif sont confirmés avant validation.</p><a class="btn dark" id="customWa" href="#">Demander une personnalisation</a></div>
+  <div class="custom-card"><span>LE ONZE</span><b>11</b><strong>TON NOM</strong></div>
+</div>
+</section>
+
+<section class="section dark-section">
+<div class="container">
+  <p class="eyebrow">POURQUOI LE ONZE</p><h2>Une expérience simple.</h2>
+  <div class="features">
+    <article><i>01</i><h3>Choisis</h3><p>Parcours les collections et sélectionne tes articles.</p></article>
+    <article><i>02</i><h3>Commande</h3><p>Ajoute au panier puis envoie ta commande sur WhatsApp.</p></article>
+    <article><i>03</i><h3>Confirme</h3><p>Nous vérifions taille, disponibilité, livraison et montant.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="section" id="livraison">
+<div class="container">
+  <div class="section-head"><div><p class="eyebrow dark">SERVICE</p><h2>Livraison & commande</h2></div></div>
+  <div class="info-grid">
+    <article><span>01</span><h3>Commande</h3><p>Ajoute tes articles au panier et envoie le récapitulatif par WhatsApp.</p></article>
+    <article><span>02</span><h3>Confirmation</h3><p>Nous confirmons les disponibilités, tailles, prix et frais de livraison.</p></article>
+    <article><span>03</span><h3>Expédition</h3><p>La commande est préparée puis remise au livreur selon la zone.</p></article>
+    <article><span>04</span><h3>Réception</h3><p>Tu reçois ton colis à l’adresse ou au point convenu.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="section faq" id="faq">
+<div class="container narrow">
+<p class="eyebrow dark">FAQ</p><h2>Questions fréquentes</h2>
+<details open><summary>Comment commander ?</summary><p>Choisis tes articles, ajoute-les au panier puis clique sur « Commander sur WhatsApp ». Nous finalisons la commande avec toi.</p></details>
+<details><summary>Livrez-vous au Cameroun ?</summary><p>Oui. Les modalités et frais dépendent de la ville et de la zone de livraison.</p></details>
+<details><summary>Comment connaître les tailles disponibles ?</summary><p>Indique ta taille dans ton message WhatsApp. Nous te confirmons le stock disponible avant validation.</p></details>
+<details><summary>La personnalisation est-elle possible ?</summary><p>Oui sur les modèles éligibles. Contacte-nous avec le nom, le numéro, le modèle et la taille souhaités.</p></details>
+</div>
+</section>
+
+<section class="section contact" id="contact">
+<div class="container contact-box">
+<div><p class="eyebrow dark">CONTACT</p><h2>Prêt à commander ?</h2><p class="muted">WhatsApp : <b>+237 659 849 954</b><br>Yaoundé • Cameroun<br>Site : leonzestore.com</p></div>
+<a class="btn gold" id="contactWa" href="#">Écrire sur WhatsApp</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container footer-grid">
+  <div><div class="footer-logo">LE ONZE STORE</div><p>Maillots • Survêtements • Personnalisation</p><p class="small">© 2026 Le Onze Store. Tous droits réservés.</p></div>
+  <div><h4>Boutique</h4><a href="#catalogue">Maillots</a><a href="#survetements">Survêtements</a><a href="#personnalisation">Personnalisation</a></div>
+  <div><h4>Informations</h4><a href="#livraison">Livraison</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+  <div><h4>Commande</h4><p>WhatsApp<br><b>+237 659 849 954</b></p><a id="footerWa" href="#">Commander maintenant →</a></div>
+</div>
+</footer>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-bg" id="drawerBg"></div>
+  <aside class="drawer-panel">
+    <div class="drawer-head"><h2>Mon panier</h2><button id="drawerClose">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-bottom"><div class="total"><span>Total estimé</span><b id="cartTotal">0 FCFA</b></div><a class="btn gold full" id="checkout" href="#">Commander sur WhatsApp</a><p>Le montant final est confirmé avec le client avant paiement.</p></div>
+  </aside>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
